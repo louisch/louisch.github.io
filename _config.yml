@@ -1,1 +1,7 @@
 exclude: [vendor]
+
+title: Louis Chan
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
