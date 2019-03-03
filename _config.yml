@@ -5,3 +5,4 @@ description: Hi! Welcome to my personal site.
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-minimal
+show_downloads: false
