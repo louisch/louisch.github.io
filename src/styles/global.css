@@ -1,13 +1,44 @@
-html {
-  font-family: sans-serif;
+:root {
+  --measure: 60ch;
+  --light-yellow: #ffff8b;
+  --yellow: #ffee58;
+  --dark-yellow: #c9bc1f;
+  --light-pink: #ff94c2;
+  --pink: #f06292;
+  --dark-pink: #ba2d65;
+  --lighter-grey: #dddddd;
+  --light-grey: #cccccc;
+  --grey: #acacac;
+  --dark-grey: #7e7e7e;
+  --darker-grey: #606060;
+  --even-darker-grey: #363636;
+
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  box-sizing: border-box;
+  max-width: var(--measure);
+  font-family: sans-serif;
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-width: none;
+}
+
 article,
 aside,
 details,
@@ -22,55 +53,68 @@ section,
 summary {
   display: block;
 }
+
 audio,
 canvas,
 progress,
 video {
   display: inline-block;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+
 progress {
   vertical-align: baseline;
 }
+
 [hidden],
 template {
   display: none;
 }
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
+
 a:active,
 a:hover {
   outline-width: 0;
 }
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
 }
+
 b,
 strong {
   font-weight: inherit;
   font-weight: bolder;
 }
+
 dfn {
   font-style: italic;
 }
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
 mark {
   background-color: #ff0;
   color: #000;
 }
+
 small {
   font-size: 80%;
 }
+
 sub,
 sup {
   font-size: 75%;
