@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-post-js","path":"/first-post","result":{"data":{"markdownRemark":{"html":"<p>Test post written in Markdown.</p>","frontmatter":{"date":"January 04, 2020","path":"/first-post","title":"Test Post"}}},"pageContext":{"isCreatedByStatefulCreatePages":false}}}
